@@ -36,7 +36,7 @@
 		echo $this->fetch('css');
 		?>
 	</head>
-	<body>qsdqsd
+	<body>
 		<div id="wrap">
 			<?php echo $this->element('admin/header'); ?>
 			<?php echo $this->element('admin/navigation'); ?>
