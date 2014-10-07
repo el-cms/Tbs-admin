@@ -1,9 +1,18 @@
 List of files and their original location:
 ==========================================
 
-## Files in Elements:
+If you plan to replace the existing default Croogo's admin theme, here are the list of files
+and their origins:
 
-### From Croogo/View/Elements/admin:
+## Files in 'Common':
+### From 'Croogo/View/Common':
+ * admin_edit.ctp
+ * admin_index.ctp
+ * admin_toggle.ctp
+ * admin_view.ctp
+
+## Files in Elements:
+### From 'Croogo/View/Elements/admin':
  * breadcrumb.ctp
  * footer.ctp
  * header.ctp
@@ -13,6 +22,29 @@ List of files and their original location:
  * search.ctp
  * toggle.ctp
 
-### From Nodes/Elements/admin:
+### From 'Nodes/Elements/admin':
  * nodes_search.ctp
 
+## Files in 'Helper':
+
+## Files in 'Layouts':
+### From 'Croogo/View/Layouts':
+ * json/ folder
+ * admin.ctp
+ * admin_login.ctp
+
+## Files in 'Nodes' are from 'Nodes/View/Nodes':
+ * admin_chooser.ctp
+ * admin_create.ctp
+ * admin_form.ctp
+ * admin_index.ctp
+ * admin_translate.ctp
+ * admin_translations.ctp
+
+## Additionnal notes
+**All files in 'TODO' folders are not yet ported to TBS 3.**
+
+**All files in 'NOT_USED_YET' folders, under the webroot directory are
+files wich were needed before but are *not used yet***
+
+**The list will evolve**
