@@ -1,0 +1,35 @@
+{
+	"name": "TBS-Admin",
+	"description": "Twitter Bootstrap 3 port of the croogo admin theme",
+	"screenshot": "screenshot.png",
+	"author": "Manuel Tancoigne",
+	"authorEmail": "cms@experimentslabs.com",
+	"authorUrl": "experimentslabs.com",
+	"menus": [
+		"main",
+		"footer"
+	],
+	"regions": [
+		"right"
+	],
+	"settings": {
+		"css": {
+			"container": "container-fluid",
+			"row": "row-fluid",
+			"tableClass": "table table-stripped",
+			"columnFull": "col-md-12",
+			"columnLeft": "col-sm-8",
+			"columnRight": "col-sm-4"
+		},
+		"iconDefaults": {
+			"classDefault": "fa",
+			"largeIconClass": "fa-lg",
+			"smallIconClass": "",
+			"classPrefix": "fa-"
+		},
+		"icons": {
+			"check-mark": "check",
+			"delete": "trash"
+		}
+	}
+}
