@@ -1,4 +1,4 @@
-/**
+Admin/**
  * Admin
  *
  * for admin pages
@@ -32,7 +32,7 @@ Admin.navigation = function() {
 	}
 	// traverse parent elements and mark as current
 	$($current.selector).parentsUntil('.sidebar', 'ul').each(function() {
-		$(this).siblings('a.sidebar-item').addClass('current')
+		$(this).siblings('a.sidebar-item').addClass('current-parent')
 	});
 	if (window.innerWidth >= 979) {
 		$topLevelMenus.parent().find('> .current').next('ul').toggle();

@@ -6168,6 +6168,9 @@ button.close {
 .sidebarActiveBackground {
   background: url(../img/icons/sidebar_active.png) no-repeat 160px 10px;
 }
+.sidebarActiveParentBackground {
+  background: url(../img/icons/sidebar_active_parent.png) no-repeat 150px 10px;
+}
 .noGradient {
   background-color: transparent;
   background-image: none;
@@ -8244,6 +8247,9 @@ footer a:hover {
 }
 .sidebar .nav-stacked a.current {
   background: url(../img/icons/sidebar_active.png) no-repeat 160px 10px;
+}
+.sidebar .nav-stacked a.current-parent {
+  background: url(../img/icons/sidebar_active_parent.png) no-repeat 150px 10px;
 }
 .sidebar .nav-stacked .sub-nav {
   display: none;
