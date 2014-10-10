@@ -8238,10 +8238,6 @@ footer a:hover {
 }
 .sidebar .nav-stacked a {
   color: #777777;
-  /*			&.current-parent{
-				.sidebarActiveParentBackground;
-			}*/
-
 }
 .sidebar .nav-stacked a:hover,
 .sidebar .nav-stacked a:active,
@@ -8336,6 +8332,10 @@ form.inline div {
 }
 form .span8 + .span4 {
   margin-top: 37px;
+}
+.form-group {
+  margin-bottom: 15px;
+  clear: both;
 }
 .text-important {
   text-decoration: none;
