@@ -43,12 +43,12 @@
 			<div id="push"></div>
 			<div id="content-container" class="<?php echo $this->Layout->cssClass('container'); ?>">
 			<!--<div  id="content"class="<?php echo $this->Layout->cssClass('row-fluid'); ?>">-->
-				<div id="content">
+				<div id="content" class="row">
 					<?php echo $this->element('admin/breadcrumb'); ?>
-					<div id="inner-content">
+					<!--<div id="inner-content">-->
 						<?php echo $this->Layout->sessionFlash(); ?>
 						<?php echo $this->fetch('content'); ?>
-					</div>
+					<!--</div>-->
 				</div>
 				<!--</div>-->
 			</div>

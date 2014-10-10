@@ -32,7 +32,7 @@ Admin.navigation = function() {
 	}
 	// traverse parent elements and mark as current
 	$($current.selector).parentsUntil('.sidebar', 'ul').each(function() {
-		$(this).siblings('a.sidebar-item').addClass('current-parent')
+		$(this).siblings('a.sidebar-item').addClass('current')
 	});
 	if (window.innerWidth >= 979) {
 		$topLevelMenus.parent().find('> .current').next('ul').toggle();
