@@ -12,6 +12,13 @@ and their origins:
  * admin_view.ctp
 
 ## Files in Elements:
+
+### From 'Acl/View/Elements/admin':
+ * acl_permission_table.ctp
+
+### From 'Comments/View/Elements/admin':
+ * comment_tab.ctp
+
 ### From 'Croogo/View/Elements/admin':
  * breadcrumb.ctp
  * footer.ctp
