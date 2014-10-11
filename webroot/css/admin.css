@@ -8833,8 +8833,6 @@ a.delete:hover {
 }
 .permission-toggle.permission-disabled {
   color: #777777;
-  /*		color: @gray;
-		cursor: text;*/
 }
 .perm-collapse {
   padding-left: 15px;
@@ -8866,23 +8864,29 @@ td .controller {
 .permission-table .item-actions a {
   margin-right: 10px;
 }
-div.extensions-themes .current-theme .screenshot {
-  float: left;
+div.extensions-themes {
+  /*	.current-theme {
+			.screenshot {
+				float: left;
+			}
+		}
+
+	*/
 }
-div.extensions-themes .available-themes {
-  border-top: 1px dashed #ccc;
-  margin: 50px 0px 0px 0px;
+div.extensions-themes .screenshot {
+  border-right: 1px dashed #e2e2e2;
+  text-align: center;
 }
-div.extensions-themes .available-themes ul {
-  margin: 0;
+div.extensions-themes .screenshot img {
+  display: block;
+  width: 100% \9;
+  max-width: 100%;
+  height: auto;
 }
-div.extensions-themes .available-themes ul li {
+div.extensions-themes .available-themes li {
   margin-left: 0;
   margin-bottom: 20px;
   list-style: none;
-}
-div.extensions-themes .available-themes .actions a {
-  margin-right: 10px;
 }
 #comment-modal pre {
   background: inherit;
