@@ -43,7 +43,7 @@
 			<div id="push"></div>
 			<div id="content-container" class="<?php echo $this->Layout->cssClass('container'); ?>">
 			<!--<div  id="content"class="<?php echo $this->Layout->cssClass('row-fluid'); ?>">-->
-				<div id="content" class="row">
+				<div id="content" class="row-fluid">
 					<?php echo $this->element('admin/breadcrumb'); ?>
 					<!--<div id="inner-content">-->
 					<div class="col-sm-12">
@@ -51,6 +51,7 @@
 					</div>
 					<?php echo $this->fetch('content'); ?>
 					<!--</div>-->
+					<div class="clearfix"></div>
 				</div>
 				<!--</div>-->
 			</div>
