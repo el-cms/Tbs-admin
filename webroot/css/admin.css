@@ -8340,10 +8340,10 @@ form .span8 + .span4 {
   margin-bottom: 15px;
   clear: both;
 }
-.box-radio-group .radio input {
+.radio-group .radio input {
   margin: 0px;
 }
-.box-radio-group .radio label {
+.radio-group .radio label {
   margin-left: 4px;
 }
 .box-checkbox input {
@@ -8712,13 +8712,14 @@ div .success .alert-link {
 }
 .box .box-content {
   padding: 15px;
+  /*		.input {
+			clear: both;
+			margin-top: @crGeneralMargin;
+		}*/
+
 }
 .box .box-content .submit {
   display: inline-block;
-}
-.box .box-content .input {
-  clear: both;
-  margin-top: 10px;
 }
 .box .box-content label {
   font-weight: normal;
@@ -8784,20 +8785,23 @@ select[multiple].box .box-content .form-control {
   margin: 10px 0px;
 }
 .tab-content {
-  border-radius: 0px 0px 2px 2px;
-  background-color: #ffffff;
-  margin-top: -20px;
-  padding: 0px;
-  border: 0px;
-  min-height: 200px;
-}
-.tab-content fieldset {
-  padding: 0px;
-}
-.tab-content fieldset legend {
-  margin: 0;
-  line-height: 35px;
-  font-size: 100%;
+  /*	.border-radius(0px 0px 2px 2px);
+	background-color: @white;
+	min-height: 200px;
+	margin-top: -20px;
+	padding: 0px;
+	border: 0px;
+	min-height: 200px;
+
+	fieldset {
+		padding: 0px;
+		legend {
+			margin: 0;
+			line-height: 35px;
+			font-size: 100%;
+		}
+	}*/
+
 }
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a.brand {

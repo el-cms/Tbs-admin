@@ -91,7 +91,8 @@ echo $this->Html->tabStart('node-main') .
 
 echo $this->Html->tabStart('node-access') .
  $this->Form->input('Role.Role', array(
-		'label' => __d('croogo', 'Role')
+		'label' => __d('croogo', 'Role'),
+		'div' => 'form-group',
 )) .
  $this->Html->tabEnd();
 
@@ -111,9 +112,9 @@ echo $this->Html->beginBox(__d('croogo', 'Publishing')) .
  $this->Form->input('status', array(
 		'legend' => false,
 		'type' => 'radio',
-		'div' => 'box-radio-group',
 		'default' => CroogoStatus::UNPUBLISHED,
 		'options' => $this->Croogo->statuses(),
+		'div' => 'radio-group',
 		'before' => '<div class="radio">',
 		'after' => '</div>',
 		'separator' => '</div><div class="radio">'
@@ -142,8 +143,7 @@ echo $this->Html->beginBox(__d('croogo', 'Publishing')) .
 		'class' => trim($inputClass . ' input-datetime form-control'),
 		'label' => __d('croogo', 'Created'),
 )) .
- $this->Html->div('input-daterange',
-				$this->Form->input('publish_start', array(
+ $this->Html->div('input-daterange', $this->Form->input('publish_start', array(
 						'label' => __d('croogo', 'Publish Start'),
 						'type' => 'text',
 						'div' => 'form-group',

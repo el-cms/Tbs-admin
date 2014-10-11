@@ -46,8 +46,10 @@
 				<div id="content" class="row">
 					<?php echo $this->element('admin/breadcrumb'); ?>
 					<!--<div id="inner-content">-->
+					<div class="col-sm-12">
 						<?php echo $this->Layout->sessionFlash(); ?>
-						<?php echo $this->fetch('content'); ?>
+					</div>
+					<?php echo $this->fetch('content'); ?>
 					<!--</div>-->
 				</div>
 				<!--</div>-->
