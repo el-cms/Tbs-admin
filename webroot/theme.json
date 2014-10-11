@@ -19,7 +19,8 @@
 			"tableClass": "table table-stripped",
 			"columnFull": "col-md-12",
 			"columnLeft": "col-sm-8",
-			"columnRight": "col-sm-4"
+			"columnRight": "col-sm-4",
+			"formInput": "form-control"
 		},
 		"iconDefaults": {
 			"classDefault": "fa",

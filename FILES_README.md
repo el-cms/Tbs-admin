@@ -25,6 +25,9 @@ and their origins:
 ### From 'Nodes/Elements/admin':
  * nodes_search.ctp
 
+### From 'Meta/Elements/admin':
+ * meta_fields.ctp
+
 ## Files in 'Helper':
 
 ## Files in 'Layouts':
@@ -40,6 +43,9 @@ and their origins:
  * admin_index.ctp
  * admin_translate.ctp
  * admin_translations.ctp
+
+## Files in webroot
+All files in `webroot` dir are from `Vendor/croogo/croogo/Croogo/webroot`.
 
 ## Additionnal notes
 **All files in 'TODO' folders are not yet ported to TBS 3.**

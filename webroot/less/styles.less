@@ -33,7 +33,7 @@
 }
 
 .loading {
-	 background: url('/img/ajax/circle_ball.gif') no-repeat scroll 100% 0 transparent;
+	background: url('/img/ajax/circle_ball.gif') no-repeat scroll 100% 0 transparent;
 }
 
 .ajax-toggle:hover {
@@ -42,21 +42,21 @@
 
 // For "Boxes" on form.
 .box {
-	.well;
-	padding: 10px;
-	border: 1px solid #ddd;
-	margin-bottom: @crBoxMarginVertical;
-	.border-radius(2px);
-	.box-title {
-		padding-left: @crContentPadding;
-		font-weight: bold;
-		color: lighten(@gray, 2%);
-		color: @black;
-		cursor: pointer;
+	.panel;
+	.panel-default;
+	background-color: lighten(@gray-lighter, 5%);
+	.border-radius(0px);
+
+	.box-title{
+		.panel-title;
+		padding: @crGeneralMargin;
+		border-bottom: 1px solid @gray-lighter;
+		background: lighten(@gray-lighter, 2%);
 	}
 
-	.box-content {
-		margin: @crGeneralMargin;
+	.box-content{
+		.panel-body;
+
 		.submit {
 			display: inline-block;
 		}
@@ -64,6 +64,14 @@
 		.input {
 			clear: both;
 			margin-top: @crGeneralMargin;
+		}
+
+		label{
+			font-weight: normal;
+		}
+		.form-control{
+			.form-control;
+			.input-sm;
 		}
 	}
 }
