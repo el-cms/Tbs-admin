@@ -20,7 +20,8 @@
 			"columnFull": "col-md-12",
 			"columnLeft": "col-sm-8",
 			"columnRight": "col-sm-4",
-			"formInput": "form-control"
+			"formInput": "form-control",
+			"addonClass": "input-group"
 		},
 		"iconDefaults": {
 			"classDefault": "fa",
