@@ -1,4 +1,4 @@
-qs<?php
+<?php
 
 $rows = array();
 foreach ($linkChoosers as $name => $chooser):

@@ -125,6 +125,10 @@ $this->start('panels');
 			'legend' => false,
 			'default' => CroogoStatus::UNPUBLISHED,
 			'options' => $this->Croogo->statuses(),
+			'div' => 'radio-group',
+			'before' => '<div class="radio">',
+			'after' => '</div>',
+			'separator' => '</div><div class="radio">'
 		)) .
 		$this->Html->div('input-daterange',
 			$this->Form->input('publish_start', array(
