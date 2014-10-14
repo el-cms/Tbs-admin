@@ -8344,6 +8344,16 @@ form .span8 + .span4 {
   padding-left: 4px;
   font-weight: normal;
 }
+.input-checkbox {
+  padding-left: 10px;
+}
+.input-checkbox input {
+  margin: 0px;
+}
+.input-checkbox label {
+  padding-left: 4px;
+  font-weight: normal;
+}
 .text-important {
   text-decoration: none;
   color: #000000;
