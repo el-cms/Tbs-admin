@@ -1,4 +1,4 @@
-<?php
+Regions/admin_translate<?php
 $this->Croogo->adminScript('Nodes.admin');
 if (Configure::read('Writing.wysiwyg')) {
 	$this->Html->scriptBlock($tinymce->fileBrowserCallBack(), array('inline' => false));
