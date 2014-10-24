@@ -15,6 +15,10 @@ and their origins:
 
 ### From 'Acl/View/Elements/admin':
  * acl_permission_table.ctp
+ * parent_roles.ctp
+ * roles.ctp
+ * row_acl.ctp
+ * terms_tab.ctp
 
 ### From 'Comments/View/Elements/admin':
  * comment_tab.ctp
@@ -34,6 +38,9 @@ and their origins:
 
 ### From 'Meta/Elements/admin':
  * meta_fields.ctp
+
+### From 'Taxonomy/Elements/admin':
+ * terms_tab.ctp
 
 ## Files in 'Helper':
 
