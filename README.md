@@ -20,5 +20,7 @@ When the theme will be good enough, i'll integrate it in croogo as the default o
 
 That should be enough, login to admin and find issues ! There are things I couldn't fix, and your help is a precious gift.
 
+If you want to update the CSS, download twitter bootstrap 3 and fontawesome and extract them in the `<Tbs-admin>/webroot` directory. You'll have to crunch the `**<Tbs-admin>/webroot/less/admin.less**` in `**<Tbs-admin>/webroot/css/admin.css**`
+
 ## I need help to...
 ... Update the 'locale' views (ExtensionsLocales/admin_edit.ctp, admin_index.ctp). I have no locale pack, so I can't test.
