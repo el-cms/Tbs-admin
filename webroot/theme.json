@@ -31,7 +31,8 @@
 		},
 		"icons": {
 			"check-mark": "check",
-			"delete": "trash"
+			"delete": "trash",
+			"power-off": "power-off"
 		}
 	}
 }
