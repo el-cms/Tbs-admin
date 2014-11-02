@@ -13,7 +13,7 @@
 		));
 		echo $this->Layout->js();
 		echo $this->Html->script(array(
-				'html5',
+//				'html5',
 				'jquery/jquery.min',
 				'jquery/jquery-ui.min',
 				'jquery/jquery.slug',
