@@ -72,8 +72,7 @@ echo $this->Html->tabStart('node-main') .
 		'div' => array('class' => 'form-group')
 )) .
  $this->Form->input('slug', array(
-		'class' => trim($inputClass . ' slug'),
-		'class' => 'form-control',
+		'class' => 'form-control ' . trim($inputClass . ' slug'),
 		'label' => __d('croogo', 'Slug'),
 		'div' => array('class' => 'form-group')
 )) .
