@@ -11,7 +11,7 @@ $columnFull = $this->Layout->cssClass('columnFull');
 	</div>
 </div>
 <?php
-$this->Html->addCrumb('', '/admin', array('icon' => $_icons['home']))
+$this->Html->addCrumb('', '/admin', array('icon' => $this->Theme->getIcon('home')))
 				->addCrumb(__d('croogo', 'Content'), array('controller' => 'nodes', 'action' => 'index'))
 				->addCrumb(__d('croogo', 'Create'), '/' . $this->request->url);
 ?>

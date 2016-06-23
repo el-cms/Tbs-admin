@@ -77,14 +77,14 @@ if (!$tableBody && isset($displayFields)):
 						'data-chooser_id' => $item[$modelClass]['id'],
 				));
 			else:
-				$actions[] = $this->Croogo->adminRowAction('', array('action' => 'edit', $item[$modelClass]['id']), array('icon' => $_icons['update'], 'tooltip' => __d('croogo', 'Edit this item'))
+				$actions[] = $this->Croogo->adminRowAction('', array('action' => 'edit', $item[$modelClass]['id']), array('icon' => $this->Theme->getIcon('update'), 'tooltip' => __d('croogo', 'Edit this item'))
 				);
 				$actions[] = $this->Croogo->adminRowActions($item[$modelClass]['id']);
 				$actions[] = $this->Croogo->adminRowAction('', array(
 						'action' => 'delete',
 						$item[$modelClass]['id'],
 								), array(
-						'icon' => $_icons['delete'],
+						'icon' => $this->Theme->getIcon('delete'),
 						'tooltip' => __d('croogo', 'Remove this item')
 								), __d('croogo', 'Are you sure?'));
 			endif;

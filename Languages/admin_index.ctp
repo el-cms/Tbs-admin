@@ -1,8 +1,7 @@
 <?php
-
 $this->extend('/Common/admin_index');
 
-$this->Html->addCrumb('', '/admin', array('icon' => $_icons['home']))
+$this->Html->addCrumb('', '/admin', array('icon' => $this->Theme->getIcon('home')))
 	->addCrumb(__d('croogo', 'Settings'), array('plugin' => 'settings', 'controller' => 'settings', 'action' => 'prefix', 'Site'))
 	->addCrumb(__d('croogo', 'Languages'), '/' . $this->request->url);
 
@@ -31,19 +30,19 @@ $this->Html->addCrumb('', '/admin', array('icon' => $_icons['home']))
 					$actions[] = $this->Croogo->adminRowActions($language['Language']['id']);
 					$actions[] = $this->Croogo->adminRowAction('',
 						array('action' => 'moveup', $language['Language']['id']),
-						array('icon' => $_icons['move-up'], 'tooltip' => __d('croogo', 'Move up'))
+						array('icon' => $this->Theme->getIcon('move-up'), 'tooltip' => __d('croogo', 'Move up'))
 					);
 					$actions[] = $this->Croogo->adminRowAction('',
 						array('action' => 'movedown', $language['Language']['id']),
-						array('icon' => $_icons['move-down'], 'tooltip' => __d('croogo', 'Move down'))
+						array('icon' => $this->Theme->getIcon('move-down'), 'tooltip' => __d('croogo', 'Move down'))
 					);
 					$actions[] = $this->Croogo->adminRowAction('',
 						array('action' => 'edit', $language['Language']['id']),
-						array('icon' => $_icons['update'], 'tooltip' => __d('croogo', 'Edit this item'))
+						array('icon' => $this->Theme->getIcon('update'), 'tooltip' => __d('croogo', 'Edit this item'))
 					);
 					$actions[] = $this->Croogo->adminRowAction('',
 						array('action' => 'delete', $language['Language']['id']),
-						array('icon' => $_icons['delete'], 'tooltip' => __d('croogo', 'Remove this item')),
+						array('icon' => $this->Theme->getIcon('delete'), 'tooltip' => __d('croogo', 'Remove this item')),
 						__d('croogo', 'Are you sure?')
 					);
 
