@@ -10,7 +10,7 @@ $columnFull = $this->Layout->cssClass('columnFull');
 
 <?php
 $this->Html
-				->addCrumb('', '/admin', array('icon' => $_icons['home']))
+				->addCrumb('', '/admin', array('icon' => $this->Theme->getIcon('home')))
 				->addCrumb(__d('croogo', 'Dashboard'), '/' . $this->request->url);
 ?>
 <div class="<?php echo $rowClass?>">

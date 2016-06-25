@@ -3,6 +3,10 @@ croogo-admin
 
 Twitter bootstrap 3 theme for croogo admin
 
+Croogo version: 2.2.3
+
+Cakephp version: 2.8.5
+
 **This theme is almost finished, you're welcome to test it.**
 
 ## Goal
